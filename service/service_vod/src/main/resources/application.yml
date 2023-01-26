@@ -1,0 +1,12 @@
+server:
+  port: 8301
+spring:
+  application:
+    name: service-vod
+  profiles:
+    active: db
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+
